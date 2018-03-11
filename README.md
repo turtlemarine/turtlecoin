@@ -1,14 +1,14 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image](https://raw.githubusercontent.com/turtlemarine/turtlemarinecoin/master/hqdefault.jpg)
 
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin)
-[![Build status](https://ci.appveyor.com/api/projects/status/an6je6l48eawteyg?svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+[![Build Status](https://travis-ci.org/turtlemarinecoin/turtlemarinecoin.svg?branch=master)](https://travis-ci.org/turtlemarinecoin/turtlemarinecoin)
+[![Build status](https://ci.appveyor.com/api/projects/status/an6je6l48eawteyg?svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlemarinecoin)
 ### How To Compile
 
 #### Ubuntu 16.04+ and MacOS 10.10+
 
 There is a bash installation script for Ubuntu 16.04+ and MacOS 10.10+ which can be used to checkout and build the project from source:
 
-`$ curl -sL "https://raw.githubusercontent.com/turtlecoin/turtlecoin/master/multi_installer.sh" | bash `
+`$ curl -sL "https://raw.githubusercontent.com/turtlmarine/turtlemarinecoin/master/multi_installer.sh" | bash `
 
 On Ubuntu you will be asked for sudo rights to install software. The binaries will be in `./src` after compilation is complete.
 
@@ -20,7 +20,7 @@ If the script doesn't work for you:
 
 #### Linux
 
-If you are using Arch Linux, there is an AUR precompiled package, `turtlecoin-bin`, or a build from source version, `turtlecoin-git`.
+If you are using Arch Linux, there is an AUR precompiled package, `turtlemarinecoin-bin`, or a build from source version, `turtlemarinecoin-git`.
 
 ##### Prerequisites
 
@@ -35,8 +35,8 @@ sudo apt-get install librocksdb-dev
 
 ##### Building
 
-- `git clone https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/turtlemarine/turtlemarinecoin`
+- `cd turtlemarinecoin`
 - `mkdir build && cd $_`
 - `cmake ..`
 - `make`
@@ -51,8 +51,8 @@ sudo apt-get install librocksdb-dev
 
 ##### Building
 
-- `git clone https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/turtlemarine/turtlemarinecoin`
+- `cd turtlemarinecoin`
 - `mkdir build && cd $_`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
   from a specific boost install
@@ -70,7 +70,7 @@ The binaries will be in `./src` after compilation is complete.
 ##### Building
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_turtlecoin_directory>`
+- `cd <your_turtlemarinecoin_directory>`
 - `mkdir build`
 - `cd build`
 - Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
