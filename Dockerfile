@@ -26,7 +26,7 @@ RUN apt-get update && \
       git cmake \
       libboost1.58-all-dev \
       librocksdb-dev && \
-    git clone https://github.com/turtlemarinecoin/turtlemarinecoin.git /src/turtlemarinecoin && \
+    git clone https://github.com/turtlemarine/turtlemarinecoin.git /src/turtlemarinecoin && \
     cd /src/turtlemarinecoin && \
     git checkout $TURTLEMARINECOIN_VERSION && \
     mkdir build && \
