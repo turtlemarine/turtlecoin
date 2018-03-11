@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# rocksteady, turtlemarinecoin developers 2017-2018
+# turtlemarine, turtlemarinecoin developers 2017-2018
 # use this installer to clone-and-compile turtlemarinecoin in one line
 # supports Ubuntu 16 LTS
 
